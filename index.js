@@ -5,9 +5,9 @@ const students = [
   { name: "Priyadharsini", gender: "female" },
 ];
 
-const femaleNames= students.filter(i=>i.gender==="female")
+const femaleNames= students.filter(i=>i.gender==="female").map(i=>i.name)
 
-const startingANames= students.filter(i=>i.name.charAt(0)==="A")
+const startingANames= students.filter(i=>i.name.charAt(0)==="A").map(i=>i.name)
 
 const malesArr= students.filter(i=>i.gender==="male");
 
